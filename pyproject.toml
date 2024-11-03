@@ -1,0 +1,18 @@
+[project]
+name = "100x-ai-writing"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Todd Cullen", email = "todd@100-x.ai"},
+]
+dependencies = [
+    "instructor>=1.6.3",
+    "typedtemplate>=0.2.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
