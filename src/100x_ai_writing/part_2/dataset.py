@@ -159,11 +159,7 @@ Proof: https://twitter.com/donttrythis/status/908358448663863296
             RedditMessage(
                 username="mistersavage",
                 content="""http://www.homedepot.com/p/DEWALT-20-in-Variable-Speed-Scroll-Saw-DW788/203070202
-                """
-            ),
-            RedditMessage(
-                username="mistersavage",
-                content="""Also: not an endorsement of a specific maker of scroll saws. I just happen to own this one and like it.
+                Also: not an endorsement of a specific maker of scroll saws. I just happen to own this one and like it.
                 """
             )
         ]
@@ -281,7 +277,7 @@ Follow the writing style from the examples.
     examples=example_set,
     metrics=[
         llm_judge("Does the output respond appropriately to the Reddit post and comment thread?"),
-        llm_judge("Does the output maintain the writing style of Adam Savage?"),
+        llm_judge("Does the output maintain the writing style of Adam Savage based on the context data?"),
     ],
     eval_runs=10,
     eval_threshold=0.8

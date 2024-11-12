@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "instructor>=1.6.3",
     "typedtemplate>=0.2.1",
+    "llm-mindmeld>=0.1.1",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
